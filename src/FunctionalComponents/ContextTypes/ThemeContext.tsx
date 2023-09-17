@@ -12,7 +12,7 @@ type UserContextType = {
   user: AuthUser | null;
   setUser: React.Dispatch<React.SetStateAction<AuthUser | null>>;
 };
-// export const ThemeContext = createContext<UserContextType | null>(theme);
+// export const ThemeContext = createContext({} as UserContextType);
 
 export const ThemeContext = createContext(theme);
 
